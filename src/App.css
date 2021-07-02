@@ -27,9 +27,12 @@
 .box{
   border: 1px solid white;
   padding: 5px;
-  background-color: rgb(164, 220, 224);
-  
+  background-color: rgb(164, 220, 224);  
 }
+.box>p{
+  color: red;
+}
+
 
 .App-link {
   color: #61dafb;
