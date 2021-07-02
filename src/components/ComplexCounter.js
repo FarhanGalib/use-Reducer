@@ -17,7 +17,7 @@ const ComplexCounter = () => {
   const [count, dispatch] = useReducer(reducer, initialState);
   return (
     <div>
-      <h1>Count - {count.counter}</h1>
+      <p>Count - {count.counter}</p>
       <button onClick={() => dispatch({ Type: "increment"})}>Increment</button>
       <button onClick={() => dispatch({ Type: "decrement" })}>Decrement</button>
     </div>
